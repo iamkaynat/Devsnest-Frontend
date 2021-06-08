@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box; 
+    font-family: 'Merriweather', serif;
+    
+
+}
+body{
+    display:flex;
+    background: #c4c4c4;;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    display:flex;
+    position:relative;
+    margin:50px;
+    width:100%;
+    max-width:1000px;
+    min-height: 1000px;
+    background-color: #fff;
+}
+.container .left{
+    position:relative;
+    background:#26252d;
+    padding:20px;
+    width:30%;
+}
+.container .right{
+    position:relative;
+    background:rgb(228, 242, 248);
+    padding: 40px;
+    width:70%; 
+    
+    
+
+}
+.leftprofile{
+    position:relative;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    padding:10px;
+    border-bottom:1px solid white;
+
+}
+.leftprofile h2 {
+    color:#fff;
+    letter-spacing:4px;
+    text-transform: uppercase;
+    padding-top:10px;
+    
+}
+.leftprofile h3{
+    color:rgb(190, 187, 187);
+    font-size:15px;
+}
+.leftprofile .img{
+    
+    position:relative;
+    width:250px;
+    height:250px;
+    border:1px solid white;
+    border-radius:50%;
+    overflow:hidden;
+}
+.leftprofile .img img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    object-fit:cover;
+
+    
+
+}
+.contact {
+    padding-top:20px;
+}
+.title{
+    color:black;
+    text-transform:uppercase;
+    font-weight:500;
+    letter-spacing:1px;
+    margin-top:30px;
+    margin-bottom:10px;
+    text-align:center;
+    background-color: lavender;
+    border-bottom:2px solid rgb(16, 161, 252);
+    margin-left:50px;
+    margin-right:50px;
+    
+    
+    
+   
+}
+.contact ul{
+    position:relative;
+}
+.contact ul li{
+    position:relative;
+    list-style:none ;
+    margin: 10px 0;
+    cursor:pointer;
+
+}
+.contact ul li .icon{
+    display:inline-block;
+    width:20px;
+    font-size:18px;
+    color: rgb(16, 161, 252);
+    margin:5px;
+}
+.contact ul li .text{
+    font-weight:300px;
+    color:#fff;
+    
+
+}
+a:hover{
+    color:rgb(243, 205, 243);
+}
+.education ul , .experience ul{
+    position:relative;
+}
+.education ul li, .experience ul li{
+    position:relative;
+    list-style:none;
+    margin:10px 0;
+    display:inline-block;
+    
+
+}
+.education ul li .uni{
+    font-weight:100px;
+    font-size:12px;
+    color:rgb(190, 187, 187);
+    width:60%;
+    float:left;
+    
+
+    
+
+}
+.education ul li .course{
+    font-weight:300px;
+    color:#fff;
+    width:60%;
+    float:left;
+    
+    
+
+}
+.education ul li .year{
+    font-weight:100px;
+    font-size:12px;
+    color:rgb(190, 187, 187);
+    width:30%;
+    float:right;
+}
+.education ul li .grade{
+    font-weight:300px;
+    color:#fff;
+    width:30%;
+    float:right;
+    
+    
+    
+}
+.expertise ul , .languages ul , .namerole , .find{
+    position:relative;
+}
+.expertise ul li ,.languages ul li , .find ul li , .technical ul li, .experience ul li,.interests ul li{
+    position:relative;
+    list-style:none;
+    margin:10px 0;
+}
+.expertise ul li h4 , .languages ul li .text{
+    color:#fff;
+    font-weight:500;
+}
+
+.languages ul li .bar{
+    position:relative;
+    width:100%;
+    height:6px;
+    background:#fff;
+    display:block;
+    margin-top:5px;
+    
+}
+.languages ul li .bar div{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    background-color: cornflowerblue;
+}
+
+
+.namerole .name{
+    color:#26252d;
+    font-size:50px;
+    text-align:left;
+    font-weight:1000px;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+    display:inline-block;
+    border-bottom:2px solid rgb(16, 161, 252);
+    margin-bottom:0;
+    
+    
+    
+}
+.namerole{
+    display:flex;
+    flex-direction: column;
+    
+}
+.namerole .role{
+    font-size:20px;
+    text-align:right;
+    font-weight:600px;
+    text-transform:uppercase;
+    margin-bottom:0;
+    
+   
+}
+
+.find .icon ul span{
+    display:inline-block;
+    width:20px;
+    font-size:18px;
+    margin:10px 10px;
+    float: right;
+    border-bottom:1px solid black;
+    color:black;
+
+  
+    
+    
+    
+}
+
+.about{
+    margin-top:40px;
+    margin-bottom:50px;
+}
+.title2{
+    clear:both;
+    color:#fff;
+    text-transform:uppercase;
+    font-weight:500;
+    letter-spacing:1px;
+    margin-top:60px;
+    margin-bottom:20px;
+    text-align:center;
+    background-color: rgb(34, 34, 34);
+    border-bottom:2px solid blue;
+    margin-left:220px;
+    margin-right:220px;  
+}
+.technical ul li{
+    
+    display:block;
+}
+.technical ul li .bar{
+    
+    position:relative;
+    width:70%;
+    height:20px;
+    background:#26252d;
+    margin-top:5px;
+    
+    float:right;
+    padding:10px;
+    
+    
+}
+.technical ul li .bar div{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    background-color:cornflowerblue;
+}
+.technical ul li .skill{
+    font-weight:500;
+    font-size:18px;
+    color:#26252d;
+    padding:10px;
+    letter-spacing: 2px;
+}
+.experience ul li{
+    display:block;
+}
+.experience ul li .comp{
+    font-weight:100px;
+    font-size:18px;
+    color:rgb(190, 187, 187);
+    width:60%;
+    float:left;
+    
+
+    
+
+}
+.experience ul li .job{
+    font-weight:300px;
+    font-size:18px;
+    color:#26252d;;
+    width:60%;
+    float:left;
+    
+    
+
+}
+.experience ul li .year{
+    font-weight:100px;
+    font-size:18px;
+    color:rgb(190, 187, 187);
+    width:30%;
+    float:right;}
+
+.experience ul li{
+    padding:20;
+}
+.interests .text{
+    font-size:18px;
+    display:flex;
+    flex-direction:column ;
+    border:2px white;
+    background-color:white;
+}

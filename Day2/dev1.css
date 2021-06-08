@@ -1,0 +1,30 @@
+*{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
+    padding:1px;
+    text-align: left;
+    
+    
+    
+}
+
+    
+    
+
+#domains{
+    font-size: x-large;
+
+    
+}
+#body
+{
+    border: 5px rgb(109,226, 226) ;
+    border-style: solid;
+    display:block;
+    padding:10px;
+    width:50%;
+    align-content: center;
+    background-image: url("back");
+
+}
